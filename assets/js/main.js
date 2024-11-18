@@ -141,5 +141,11 @@
 						$menu._hide();
 
 			});
+//smooth scroll
+			document.querySelector('.special').addEventListener('click', function (e) {
+				e.preventDefault();
+				document.querySelector('#footer').scrollIntoView({ behavior: 'smooth' });
+			  });
+			  
 
 })(jQuery);

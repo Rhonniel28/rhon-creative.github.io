@@ -62,9 +62,16 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/Final logo only.png" alt="Logo" /></a>
 									<div class="content">
-										<h2 class="major">Rhon Design Creative</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">About Rhon Design Creative</h2>
+										<p>
+											<b>Rhon Design Creative</b> is all about turning your ideas into designs that stand out! 
+											I specialize in <b>graphics design</b>, <b>branding</b>, and <b>logo creation</b> to help your business leave a lasting impression.<br><br>
+Using top tools like <b>Adobe Illustrator</b>, <b>Photoshop</b>, and <b>Canva</b>, I craft designs that are not just visually stunning but also tailored to your needs. 
+I also build and optimize W<b>ordPress websites</b>, making sure your online presence looks great and works perfectly.<br><br>
+To top it off, I focus on <b>technical SEO</b> and <b>website performance</b>, so your brand doesn’t just look good—it gets noticed too!
+At Rhon Design Creative, I combine creativity and strategy to bring your vision to life. Let’s create something amazing together!
+										</p>
+										<a href="#footer" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
@@ -133,7 +140,7 @@
 					</section>
 
 				<!-- Footer -->
-					<section id="footer">
+					<!-- <section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
@@ -155,7 +162,32 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
-							</form>
+							</form> -->
+							<section id="footer">
+								<div class="inner">
+									<h2 class="major">Get in touch</h2>
+									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<form method="post" action="send-mail.php">
+										<div class="fields">
+											<div class="field">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" required />
+											</div>
+											<div class="field">
+												<label for="email">Email</label>
+												<input type="email" name="email" id="email" required />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="4" required></textarea>
+											</div>
+										</div>
+										<!-- Add Google reCAPTCHA -->
+										<div class="g-recaptcha" data-sitekey="your-site-key"></div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+										</ul>
+									</form>
 							<ul class="contact">
 								<li class="icon solid fa-home">
 									Untitled Inc<br />
@@ -169,7 +201,7 @@
 								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Rhon Design Creative 2024. All rights reserved.</li><!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
 							</ul>
 						</div>
 					</section>
@@ -183,6 +215,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<!-- Load Google reCAPTCHA Script -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 	</body>
 </html>
